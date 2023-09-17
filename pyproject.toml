@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pdf-object"
+version = "0.1.0"
+description = ""
+authors = ["Santiago Garcia <santiago.garcia@posteo.de>"]
+readme = "README.md"
+packages = [{include = "pdf_object"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
